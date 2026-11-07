@@ -1,12 +1,10 @@
-<p align="center"><img src="docs/assets/banner.svg" alt="SnakeAI v9: CNN та PPO" width="900"></p>
-
 <p align="center">
   <img alt="Python 3.11" src="https://img.shields.io/badge/Python-3.11-3776AB">
   <img alt="PyTorch 2.5.1" src="https://img.shields.io/badge/PyTorch-2.5.1-EE4C2C">
   <img alt="PPO" src="https://img.shields.io/badge/Навчання-PPO-079C8E">
 </p>
 
-# Змійка, яка вчиться грати
+# SnakeAI v9
 
 SnakeAI v9 навчається методом PPO. Згорткова мережа бачить поле через 13 каналів, Actor обирає один із трьох ходів, а Critic оцінює майбутню винагороду. Небезпечні ходи залишаються доступними: програма не підміняє рішення мережі перевіркою зіткнень.
 
