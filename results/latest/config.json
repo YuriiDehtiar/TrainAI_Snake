@@ -1,0 +1,33 @@
+{
+  "version": "9.0.0",
+  "env_config": {
+    "width": 10,
+    "height": 10,
+    "initial_length": 3,
+    "max_steps_without_apple": 256,
+    "max_episode_steps": 6400,
+    "rewards": {
+      "step": -0.01,
+      "apple": 1.0,
+      "collision": -1.0,
+      "starvation": -1.0,
+      "win_bonus": 5.0
+    }
+  },
+  "initialization": "random",
+  "iterations": 2000,
+  "num_envs": 1024,
+  "horizon": 64,
+  "batch_size": 65536,
+  "minibatch_size": 16384,
+  "epochs": 10,
+  "seed": 42,
+  "save_every": 20,
+  "learning_rate": 0.0003,
+  "gamma": 0.99,
+  "gae_lambda": 0.95,
+  "entropy_coefficient": 0.01,
+  "ppo_clip": 0.2,
+  "gradient_clip": 0.5,
+  "value_clip": 10.0
+}

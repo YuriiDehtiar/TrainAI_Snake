@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "snakeai-v9"
+version = "9.0.0"
+description = "Snake environment, CNN actor-critic, and PPO training with live charts"
+readme = "README.md"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+  "ray[rllib]==2.40.0",
+  "torch==2.5.1",
+  "gymnasium==1.0.0",
+  "numpy==2.2.1",
+  "matplotlib==3.10.0",
+  "pyarrow==18.1.0",
+  "tzdata>=2024.2",
+]
+
+[project.scripts]
+snake-train = "snake_v9.cli.train:main"
+snake-play = "snake_v9.cli.play:main"
+snake-evaluate = "snake_v9.cli.evaluate:main"
+snake-dashboard = "snake_v9.cli.dashboard:main"
+snake-diagnose-losses = "snake_v9.cli.diagnose_losses:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

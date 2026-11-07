@@ -1,0 +1,4268 @@
+{
+  "summary": {
+    "games": 22,
+    "body": 20,
+    "wall": 2,
+    "safe_alternative_in_final_move": 9,
+    "all_three_actions_already_fatal": 13,
+    "loss_immediately_after_eating": 10,
+    "loss_at_60_apples": 3,
+    "note": "One-step counterfactual check only: a legal move can still lead to a later trap. No action masks were applied."
+  },
+  "rows": [
+    {
+      "seed": 700000,
+      "apples": 56,
+      "steps": 427,
+      "reason": "body",
+      "steps_since_apple": 0,
+      "chosen_action": 0,
+      "alternatives": [
+        {
+          "action": 0,
+          "reason": "body",
+          "avoids_immediate_loss": false
+        },
+        {
+          "action": 1,
+          "reason": "running",
+          "avoids_immediate_loss": true
+        },
+        {
+          "action": 2,
+          "reason": "running",
+          "avoids_immediate_loss": true
+        }
+      ],
+      "state_before_last_move": {
+        "snake": [
+          [
+            2,
+            6
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            8,
+            2
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            6,
+            3
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            7,
+            4
+          ],
+          [
+            7,
+            3
+          ],
+          [
+            8,
+            3
+          ],
+          [
+            8,
+            4
+          ],
+          [
+            8,
+            5
+          ],
+          [
+            8,
+            6
+          ],
+          [
+            7,
+            6
+          ],
+          [
+            7,
+            5
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            7
+          ],
+          [
+            8,
+            7
+          ],
+          [
+            8,
+            8
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            3,
+            8
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "apple": [
+          2,
+          7
+        ],
+        "direction": 2,
+        "episode_steps": 426,
+        "steps_since_apple": 0,
+        "apples": 56
+      }
+    },
+    {
+      "seed": 700022,
+      "apples": 60,
+      "steps": 417,
+      "reason": "body",
+      "steps_since_apple": 0,
+      "chosen_action": 2,
+      "alternatives": [
+        {
+          "action": 0,
+          "reason": "body",
+          "avoids_immediate_loss": false
+        },
+        {
+          "action": 1,
+          "reason": "body",
+          "avoids_immediate_loss": false
+        },
+        {
+          "action": 2,
+          "reason": "body",
+          "avoids_immediate_loss": false
+        }
+      ],
+      "state_before_last_move": {
+        "snake": [
+          [
+            6,
+            4
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            7,
+            5
+          ],
+          [
+            7,
+            4
+          ],
+          [
+            7,
+            3
+          ],
+          [
+            8,
+            3
+          ],
+          [
+            8,
+            4
+          ],
+          [
+            8,
+            5
+          ],
+          [
+            8,
+            6
+          ],
+          [
+            8,
+            7
+          ],
+          [
+            8,
+            8
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            7
+          ],
+          [
+            7,
+            6
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            3,
+            8
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            8,
+            2
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            6,
+            3
+          ],
+          [
+            5,
+            3
+          ]
+        ],
+        "apple": [
+          4,
+          3
+        ],
+        "direction": 2,
+        "episode_steps": 416,
+        "steps_since_apple": 0,
+        "apples": 60
+      }
+    },
+    {
+      "seed": 700036,
+      "apples": 55,
+      "steps": 422,
+      "reason": "body",
+      "steps_since_apple": 0,
+      "chosen_action": 0,
+      "alternatives": [
+        {
+          "action": 0,
+          "reason": "body",
+          "avoids_immediate_loss": false
+        },
+        {
+          "action": 1,
+          "reason": "body",
+          "avoids_immediate_loss": false
+        },
+        {
+          "action": 2,
+          "reason": "body",
+          "avoids_immediate_loss": false
+        }
+      ],
+      "state_before_last_move": {
+        "snake": [
+          [
+            7,
+            7
+          ],
+          [
+            8,
+            7
+          ],
+          [
+            8,
+            8
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            3,
+            8
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            6,
+            3
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            8,
+            2
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            7,
+            3
+          ],
+          [
+            8,
+            3
+          ],
+          [
+            8,
+            4
+          ],
+          [
+            8,
+            5
+          ],
+          [
+            8,
+            6
+          ],
+          [
+            7,
+            6
+          ],
+          [
+            7,
+            5
+          ],
+          [
+            7,
+            4
+          ]
+        ],
+        "apple": [
+          5,
+          4
+        ],
+        "direction": 0,
+        "episode_steps": 421,
+        "steps_since_apple": 0,
+        "apples": 55
+      }
+    },
+    {
+      "seed": 700039,
+      "apples": 16,
+      "steps": 85,
+      "reason": "body",
+      "steps_since_apple": 6,
+      "chosen_action": 0,
+      "alternatives": [
+        {
+          "action": 0,
+          "reason": "body",
+          "avoids_immediate_loss": false
+        },
+        {
+          "action": 1,
+          "reason": "running",
+          "avoids_immediate_loss": true
+        },
+        {
+          "action": 2,
+          "reason": "body",
+          "avoids_immediate_loss": false
+        }
+      ],
+      "state_before_last_move": {
+        "snake": [
+          [
+            4,
+            2
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            6,
+            3
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            5
+          ]
+        ],
+        "apple": [
+          2,
+          8
+        ],
+        "direction": 0,
+        "episode_steps": 84,
+        "steps_since_apple": 6,
+        "apples": 16
+      }
+    },
+    {
+      "seed": 700047,
+      "apples": 42,
+      "steps": 291,
+      "reason": "body",
+      "steps_since_apple": 0,
+      "chosen_action": 1,
+      "alternatives": [
+        {
+          "action": 0,
+          "reason": "running",
+          "avoids_immediate_loss": true
+        },
+        {
+          "action": 1,
+          "reason": "body",
+          "avoids_immediate_loss": false
+        },
+        {
+          "action": 2,
+          "reason": "running",
+          "avoids_immediate_loss": true
+        }
+      ],
+      "state_before_last_move": {
+        "snake": [
+          [
+            5,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            6,
+            3
+          ],
+          [
+            7,
+            3
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            8,
+            2
+          ],
+          [
+            8,
+            3
+          ],
+          [
+            8,
+            4
+          ],
+          [
+            7,
+            4
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            6,
+            6
+          ]
+        ],
+        "apple": [
+          6,
+          7
+        ],
+        "direction": 3,
+        "episode_steps": 290,
+        "steps_since_apple": 0,
+        "apples": 42
+      }
+    },
+    {
+      "seed": 700050,
+      "apples": 16,
+      "steps": 103,
+      "reason": "wall",
+      "steps_since_apple": 0,
+      "chosen_action": 1,
+      "alternatives": [
+        {
+          "action": 0,
+          "reason": "body",
+          "avoids_immediate_loss": false
+        },
+        {
+          "action": 1,
+          "reason": "wall",
+          "avoids_immediate_loss": false
+        },
+        {
+          "action": 2,
+          "reason": "body",
+          "avoids_immediate_loss": false
+        }
+      ],
+      "state_before_last_move": {
+        "snake": [
+          [
+            5,
+            8
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            3,
+            8
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "apple": [
+          5,
+          3
+        ],
+        "direction": 2,
+        "episode_steps": 102,
+        "steps_since_apple": 0,
+        "apples": 16
+      }
+    },
+    {
+      "seed": 700051,
+      "apples": 20,
+      "steps": 123,
+      "reason": "body",
+      "steps_since_apple": 6,
+      "chosen_action": 2,
+      "alternatives": [
+        {
+          "action": 0,
+          "reason": "body",
+          "avoids_immediate_loss": false
+        },
+        {
+          "action": 1,
+          "reason": "wall",
+          "avoids_immediate_loss": false
+        },
+        {
+          "action": 2,
+          "reason": "body",
+          "avoids_immediate_loss": false
+        }
+      ],
+      "state_before_last_move": {
+        "snake": [
+          [
+            8,
+            4
+          ],
+          [
+            8,
+            5
+          ],
+          [
+            8,
+            6
+          ],
+          [
+            7,
+            6
+          ],
+          [
+            7,
+            7
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            7,
+            5
+          ],
+          [
+            7,
+            4
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            6,
+            3
+          ],
+          [
+            7,
+            3
+          ],
+          [
+            8,
+            3
+          ],
+          [
+            8,
+            2
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            6,
+            2
+          ]
+        ],
+        "apple": [
+          5,
+          1
+        ],
+        "direction": 3,
+        "episode_steps": 122,
+        "steps_since_apple": 6,
+        "apples": 20
+      }
+    },
+    {
+      "seed": 700056,
+      "apples": 41,
+      "steps": 331,
+      "reason": "body",
+      "steps_since_apple": 14,
+      "chosen_action": 2,
+      "alternatives": [
+        {
+          "action": 0,
+          "reason": "running",
+          "avoids_immediate_loss": true
+        },
+        {
+          "action": 1,
+          "reason": "body",
+          "avoids_immediate_loss": false
+        },
+        {
+          "action": 2,
+          "reason": "body",
+          "avoids_immediate_loss": false
+        }
+      ],
+      "state_before_last_move": {
+        "snake": [
+          [
+            7,
+            5
+          ],
+          [
+            8,
+            5
+          ],
+          [
+            8,
+            6
+          ],
+          [
+            7,
+            6
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            7
+          ],
+          [
+            8,
+            7
+          ],
+          [
+            8,
+            8
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            3,
+            8
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            7,
+            3
+          ],
+          [
+            8,
+            3
+          ],
+          [
+            8,
+            4
+          ],
+          [
+            7,
+            4
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            6,
+            3
+          ]
+        ],
+        "apple": [
+          8,
+          2
+        ],
+        "direction": 0,
+        "episode_steps": 330,
+        "steps_since_apple": 14,
+        "apples": 41
+      }
+    },
+    {
+      "seed": 700060,
+      "apples": 26,
+      "steps": 184,
+      "reason": "body",
+      "steps_since_apple": 5,
+      "chosen_action": 2,
+      "alternatives": [
+        {
+          "action": 0,
+          "reason": "running",
+          "avoids_immediate_loss": true
+        },
+        {
+          "action": 1,
+          "reason": "body",
+          "avoids_immediate_loss": false
+        },
+        {
+          "action": 2,
+          "reason": "body",
+          "avoids_immediate_loss": false
+        }
+      ],
+      "state_before_last_move": {
+        "snake": [
+          [
+            5,
+            2
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            8,
+            2
+          ],
+          [
+            8,
+            3
+          ],
+          [
+            8,
+            4
+          ],
+          [
+            7,
+            4
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        "apple": [
+          6,
+          5
+        ],
+        "direction": 1,
+        "episode_steps": 183,
+        "steps_since_apple": 5,
+        "apples": 26
+      }
+    },
+    {
+      "seed": 700064,
+      "apples": 46,
+      "steps": 345,
+      "reason": "body",
+      "steps_since_apple": 2,
+      "chosen_action": 2,
+      "alternatives": [
+        {
+          "action": 0,
+          "reason": "running",
+          "avoids_immediate_loss": true
+        },
+        {
+          "action": 1,
+          "reason": "wall",
+          "avoids_immediate_loss": false
+        },
+        {
+          "action": 2,
+          "reason": "body",
+          "avoids_immediate_loss": false
+        }
+      ],
+      "state_before_last_move": {
+        "snake": [
+          [
+            1,
+            5
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            8,
+            2
+          ],
+          [
+            8,
+            3
+          ],
+          [
+            8,
+            4
+          ],
+          [
+            8,
+            5
+          ],
+          [
+            7,
+            5
+          ],
+          [
+            7,
+            4
+          ],
+          [
+            7,
+            3
+          ],
+          [
+            6,
+            3
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            7,
+            6
+          ],
+          [
+            8,
+            6
+          ],
+          [
+            8,
+            7
+          ],
+          [
+            8,
+            8
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            7,
+            7
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            3,
+            8
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ]
+        ],
+        "apple": [
+          3,
+          2
+        ],
+        "direction": 1,
+        "episode_steps": 344,
+        "steps_since_apple": 2,
+        "apples": 46
+      }
+    },
+    {
+      "seed": 700068,
+      "apples": 56,
+      "steps": 417,
+      "reason": "body",
+      "steps_since_apple": 0,
+      "chosen_action": 0,
+      "alternatives": [
+        {
+          "action": 0,
+          "reason": "body",
+          "avoids_immediate_loss": false
+        },
+        {
+          "action": 1,
+          "reason": "body",
+          "avoids_immediate_loss": false
+        },
+        {
+          "action": 2,
+          "reason": "body",
+          "avoids_immediate_loss": false
+        }
+      ],
+      "state_before_last_move": {
+        "snake": [
+          [
+            7,
+            7
+          ],
+          [
+            8,
+            7
+          ],
+          [
+            8,
+            8
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            3,
+            8
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            8,
+            2
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            6,
+            3
+          ],
+          [
+            7,
+            3
+          ],
+          [
+            8,
+            3
+          ],
+          [
+            8,
+            4
+          ],
+          [
+            8,
+            5
+          ],
+          [
+            8,
+            6
+          ],
+          [
+            7,
+            6
+          ],
+          [
+            7,
+            5
+          ],
+          [
+            7,
+            4
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            5,
+            3
+          ]
+        ],
+        "apple": [
+          4,
+          4
+        ],
+        "direction": 0,
+        "episode_steps": 416,
+        "steps_since_apple": 0,
+        "apples": 56
+      }
+    },
+    {
+      "seed": 700072,
+      "apples": 12,
+      "steps": 59,
+      "reason": "body",
+      "steps_since_apple": 0,
+      "chosen_action": 1,
+      "alternatives": [
+        {
+          "action": 0,
+          "reason": "body",
+          "avoids_immediate_loss": false
+        },
+        {
+          "action": 1,
+          "reason": "body",
+          "avoids_immediate_loss": false
+        },
+        {
+          "action": 2,
+          "reason": "body",
+          "avoids_immediate_loss": false
+        }
+      ],
+      "state_before_last_move": {
+        "snake": [
+          [
+            6,
+            4
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            6,
+            3
+          ],
+          [
+            7,
+            3
+          ],
+          [
+            7,
+            4
+          ],
+          [
+            7,
+            5
+          ]
+        ],
+        "apple": [
+          2,
+          7
+        ],
+        "direction": 3,
+        "episode_steps": 58,
+        "steps_since_apple": 0,
+        "apples": 12
+      }
+    },
+    {
+      "seed": 700081,
+      "apples": 60,
+      "steps": 434,
+      "reason": "body",
+      "steps_since_apple": 0,
+      "chosen_action": 0,
+      "alternatives": [
+        {
+          "action": 0,
+          "reason": "body",
+          "avoids_immediate_loss": false
+        },
+        {
+          "action": 1,
+          "reason": "body",
+          "avoids_immediate_loss": false
+        },
+        {
+          "action": 2,
+          "reason": "body",
+          "avoids_immediate_loss": false
+        }
+      ],
+      "state_before_last_move": {
+        "snake": [
+          [
+            4,
+            5
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            6,
+            3
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            7
+          ],
+          [
+            7,
+            6
+          ],
+          [
+            7,
+            5
+          ],
+          [
+            7,
+            4
+          ],
+          [
+            7,
+            3
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            8,
+            2
+          ],
+          [
+            8,
+            3
+          ],
+          [
+            8,
+            4
+          ],
+          [
+            8,
+            5
+          ],
+          [
+            8,
+            6
+          ],
+          [
+            8,
+            7
+          ],
+          [
+            8,
+            8
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            3,
+            8
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            3,
+            6
+          ]
+        ],
+        "apple": [
+          3,
+          3
+        ],
+        "direction": 2,
+        "episode_steps": 433,
+        "steps_since_apple": 0,
+        "apples": 60
+      }
+    },
+    {
+      "seed": 700089,
+      "apples": 51,
+      "steps": 404,
+      "reason": "body",
+      "steps_since_apple": 8,
+      "chosen_action": 2,
+      "alternatives": [
+        {
+          "action": 0,
+          "reason": "body",
+          "avoids_immediate_loss": false
+        },
+        {
+          "action": 1,
+          "reason": "running",
+          "avoids_immediate_loss": true
+        },
+        {
+          "action": 2,
+          "reason": "body",
+          "avoids_immediate_loss": false
+        }
+      ],
+      "state_before_last_move": {
+        "snake": [
+          [
+            5,
+            5
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            7,
+            5
+          ],
+          [
+            7,
+            4
+          ],
+          [
+            7,
+            3
+          ],
+          [
+            8,
+            3
+          ],
+          [
+            8,
+            4
+          ],
+          [
+            8,
+            5
+          ],
+          [
+            8,
+            6
+          ],
+          [
+            7,
+            6
+          ],
+          [
+            7,
+            7
+          ],
+          [
+            8,
+            7
+          ],
+          [
+            8,
+            8
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            3,
+            8
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "apple": [
+          6,
+          4
+        ],
+        "direction": 1,
+        "episode_steps": 403,
+        "steps_since_apple": 8,
+        "apples": 51
+      }
+    },
+    {
+      "seed": 700092,
+      "apples": 8,
+      "steps": 48,
+      "reason": "wall",
+      "steps_since_apple": 3,
+      "chosen_action": 1,
+      "alternatives": [
+        {
+          "action": 0,
+          "reason": "running",
+          "avoids_immediate_loss": true
+        },
+        {
+          "action": 1,
+          "reason": "wall",
+          "avoids_immediate_loss": false
+        },
+        {
+          "action": 2,
+          "reason": "body",
+          "avoids_immediate_loss": false
+        }
+      ],
+      "state_before_last_move": {
+        "snake": [
+          [
+            5,
+            8
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            7
+          ],
+          [
+            8,
+            7
+          ],
+          [
+            8,
+            6
+          ],
+          [
+            7,
+            6
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            5,
+            6
+          ]
+        ],
+        "apple": [
+          6,
+          8
+        ],
+        "direction": 2,
+        "episode_steps": 47,
+        "steps_since_apple": 3,
+        "apples": 8
+      }
+    },
+    {
+      "seed": 700109,
+      "apples": 30,
+      "steps": 203,
+      "reason": "body",
+      "steps_since_apple": 10,
+      "chosen_action": 2,
+      "alternatives": [
+        {
+          "action": 0,
+          "reason": "body",
+          "avoids_immediate_loss": false
+        },
+        {
+          "action": 1,
+          "reason": "body",
+          "avoids_immediate_loss": false
+        },
+        {
+          "action": 2,
+          "reason": "body",
+          "avoids_immediate_loss": false
+        }
+      ],
+      "state_before_last_move": {
+        "snake": [
+          [
+            3,
+            6
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            3,
+            8
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            1,
+            4
+          ]
+        ],
+        "apple": [
+          8,
+          4
+        ],
+        "direction": 3,
+        "episode_steps": 202,
+        "steps_since_apple": 10,
+        "apples": 30
+      }
+    },
+    {
+      "seed": 700114,
+      "apples": 48,
+      "steps": 412,
+      "reason": "body",
+      "steps_since_apple": 37,
+      "chosen_action": 1,
+      "alternatives": [
+        {
+          "action": 0,
+          "reason": "body",
+          "avoids_immediate_loss": false
+        },
+        {
+          "action": 1,
+          "reason": "body",
+          "avoids_immediate_loss": false
+        },
+        {
+          "action": 2,
+          "reason": "body",
+          "avoids_immediate_loss": false
+        }
+      ],
+      "state_before_last_move": {
+        "snake": [
+          [
+            5,
+            4
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            6,
+            3
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            7,
+            4
+          ],
+          [
+            7,
+            3
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            8,
+            2
+          ],
+          [
+            8,
+            3
+          ],
+          [
+            8,
+            4
+          ],
+          [
+            8,
+            5
+          ],
+          [
+            7,
+            5
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            7,
+            6
+          ],
+          [
+            8,
+            6
+          ],
+          [
+            8,
+            7
+          ],
+          [
+            8,
+            8
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            7,
+            7
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            3,
+            8
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            1,
+            6
+          ]
+        ],
+        "apple": [
+          4,
+          6
+        ],
+        "direction": 2,
+        "episode_steps": 411,
+        "steps_since_apple": 37,
+        "apples": 48
+      }
+    },
+    {
+      "seed": 700119,
+      "apples": 56,
+      "steps": 448,
+      "reason": "body",
+      "steps_since_apple": 1,
+      "chosen_action": 2,
+      "alternatives": [
+        {
+          "action": 0,
+          "reason": "body",
+          "avoids_immediate_loss": false
+        },
+        {
+          "action": 1,
+          "reason": "wall",
+          "avoids_immediate_loss": false
+        },
+        {
+          "action": 2,
+          "reason": "body",
+          "avoids_immediate_loss": false
+        }
+      ],
+      "state_before_last_move": {
+        "snake": [
+          [
+            1,
+            5
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            8,
+            2
+          ],
+          [
+            8,
+            3
+          ],
+          [
+            8,
+            4
+          ],
+          [
+            8,
+            5
+          ],
+          [
+            8,
+            6
+          ],
+          [
+            8,
+            7
+          ],
+          [
+            8,
+            8
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            7,
+            7
+          ],
+          [
+            7,
+            6
+          ],
+          [
+            7,
+            5
+          ],
+          [
+            7,
+            4
+          ],
+          [
+            7,
+            3
+          ],
+          [
+            6,
+            3
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            3,
+            8
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            5,
+            5
+          ]
+        ],
+        "apple": [
+          4,
+          6
+        ],
+        "direction": 1,
+        "episode_steps": 447,
+        "steps_since_apple": 1,
+        "apples": 56
+      }
+    },
+    {
+      "seed": 700137,
+      "apples": 60,
+      "steps": 405,
+      "reason": "body",
+      "steps_since_apple": 0,
+      "chosen_action": 2,
+      "alternatives": [
+        {
+          "action": 0,
+          "reason": "body",
+          "avoids_immediate_loss": false
+        },
+        {
+          "action": 1,
+          "reason": "body",
+          "avoids_immediate_loss": false
+        },
+        {
+          "action": 2,
+          "reason": "body",
+          "avoids_immediate_loss": false
+        }
+      ],
+      "state_before_last_move": {
+        "snake": [
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            6,
+            3
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            7
+          ],
+          [
+            7,
+            6
+          ],
+          [
+            7,
+            5
+          ],
+          [
+            7,
+            4
+          ],
+          [
+            7,
+            3
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            8,
+            2
+          ],
+          [
+            8,
+            3
+          ],
+          [
+            8,
+            4
+          ],
+          [
+            8,
+            5
+          ],
+          [
+            8,
+            6
+          ],
+          [
+            8,
+            7
+          ],
+          [
+            8,
+            8
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            3,
+            8
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "apple": [
+          4,
+          3
+        ],
+        "direction": 0,
+        "episode_steps": 404,
+        "steps_since_apple": 0,
+        "apples": 60
+      }
+    },
+    {
+      "seed": 700139,
+      "apples": 12,
+      "steps": 75,
+      "reason": "body",
+      "steps_since_apple": 0,
+      "chosen_action": 2,
+      "alternatives": [
+        {
+          "action": 0,
+          "reason": "running",
+          "avoids_immediate_loss": true
+        },
+        {
+          "action": 1,
+          "reason": "wall",
+          "avoids_immediate_loss": false
+        },
+        {
+          "action": 2,
+          "reason": "body",
+          "avoids_immediate_loss": false
+        }
+      ],
+      "state_before_last_move": {
+        "snake": [
+          [
+            8,
+            5
+          ],
+          [
+            8,
+            6
+          ],
+          [
+            8,
+            7
+          ],
+          [
+            8,
+            8
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            7,
+            7
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            7,
+            6
+          ],
+          [
+            7,
+            5
+          ],
+          [
+            7,
+            4
+          ],
+          [
+            7,
+            3
+          ],
+          [
+            8,
+            3
+          ],
+          [
+            8,
+            2
+          ],
+          [
+            7,
+            2
+          ]
+        ],
+        "apple": [
+          2,
+          8
+        ],
+        "direction": 3,
+        "episode_steps": 74,
+        "steps_since_apple": 0,
+        "apples": 12
+      }
+    },
+    {
+      "seed": 700168,
+      "apples": 17,
+      "steps": 94,
+      "reason": "body",
+      "steps_since_apple": 1,
+      "chosen_action": 1,
+      "alternatives": [
+        {
+          "action": 0,
+          "reason": "body",
+          "avoids_immediate_loss": false
+        },
+        {
+          "action": 1,
+          "reason": "body",
+          "avoids_immediate_loss": false
+        },
+        {
+          "action": 2,
+          "reason": "body",
+          "avoids_immediate_loss": false
+        }
+      ],
+      "state_before_last_move": {
+        "snake": [
+          [
+            5,
+            7
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            3,
+            8
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            7
+          ],
+          [
+            7,
+            6
+          ],
+          [
+            8,
+            6
+          ],
+          [
+            8,
+            5
+          ],
+          [
+            8,
+            4
+          ],
+          [
+            7,
+            4
+          ],
+          [
+            7,
+            3
+          ],
+          [
+            6,
+            3
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "apple": [
+          2,
+          8
+        ],
+        "direction": 3,
+        "episode_steps": 93,
+        "steps_since_apple": 1,
+        "apples": 17
+      }
+    },
+    {
+      "seed": 700191,
+      "apples": 6,
+      "steps": 41,
+      "reason": "body",
+      "steps_since_apple": 2,
+      "chosen_action": 0,
+      "alternatives": [
+        {
+          "action": 0,
+          "reason": "body",
+          "avoids_immediate_loss": false
+        },
+        {
+          "action": 1,
+          "reason": "wall",
+          "avoids_immediate_loss": false
+        },
+        {
+          "action": 2,
+          "reason": "body",
+          "avoids_immediate_loss": false
+        }
+      ],
+      "state_before_last_move": {
+        "snake": [
+          [
+            8,
+            6
+          ],
+          [
+            8,
+            7
+          ],
+          [
+            8,
+            8
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            7,
+            7
+          ],
+          [
+            7,
+            6
+          ],
+          [
+            7,
+            5
+          ],
+          [
+            8,
+            5
+          ],
+          [
+            8,
+            4
+          ]
+        ],
+        "apple": [
+          4,
+          6
+        ],
+        "direction": 3,
+        "episode_steps": 40,
+        "steps_since_apple": 2,
+        "apples": 6
+      }
+    }
+  ]
+}

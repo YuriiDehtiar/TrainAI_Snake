@@ -1,0 +1,1619 @@
+{
+  "episodes": 200,
+  "seed": 700000,
+  "apples_mean": 55.365,
+  "apples_median": 61.0,
+  "apples_max": 61,
+  "steps_mean": 387.565,
+  "reward_mean": 55.6653,
+  "zero_apple_rate": 0,
+  "early_death_rate": 0.005,
+  "win_rate": 0.77,
+  "end_reasons": {
+    "win": 154,
+    "body": 43,
+    "wall": 3
+  },
+  "rows": [
+    {
+      "apples": 61,
+      "steps": 405,
+      "reason": "win",
+      "won": true,
+      "seed": 700000,
+      "reward": 62.56
+    },
+    {
+      "apples": 61,
+      "steps": 467,
+      "reason": "win",
+      "won": true,
+      "seed": 700001,
+      "reward": 61.94
+    },
+    {
+      "apples": 54,
+      "steps": 460,
+      "reason": "body",
+      "won": false,
+      "seed": 700002,
+      "reward": 48.95
+    },
+    {
+      "apples": 61,
+      "steps": 554,
+      "reason": "win",
+      "won": true,
+      "seed": 700003,
+      "reward": 61.07
+    },
+    {
+      "apples": 61,
+      "steps": 423,
+      "reason": "win",
+      "won": true,
+      "seed": 700004,
+      "reward": 62.38
+    },
+    {
+      "apples": 61,
+      "steps": 372,
+      "reason": "win",
+      "won": true,
+      "seed": 700005,
+      "reward": 62.89
+    },
+    {
+      "apples": 61,
+      "steps": 438,
+      "reason": "win",
+      "won": true,
+      "seed": 700006,
+      "reward": 62.23
+    },
+    {
+      "apples": 61,
+      "steps": 394,
+      "reason": "win",
+      "won": true,
+      "seed": 700007,
+      "reward": 62.67
+    },
+    {
+      "apples": 61,
+      "steps": 429,
+      "reason": "win",
+      "won": true,
+      "seed": 700008,
+      "reward": 62.32
+    },
+    {
+      "apples": 48,
+      "steps": 395,
+      "reason": "body",
+      "won": false,
+      "seed": 700009,
+      "reward": 43.54
+    },
+    {
+      "apples": 61,
+      "steps": 417,
+      "reason": "win",
+      "won": true,
+      "seed": 700010,
+      "reward": 62.44
+    },
+    {
+      "apples": 44,
+      "steps": 326,
+      "reason": "body",
+      "won": false,
+      "seed": 700011,
+      "reward": 40.19
+    },
+    {
+      "apples": 52,
+      "steps": 371,
+      "reason": "body",
+      "won": false,
+      "seed": 700012,
+      "reward": 47.82
+    },
+    {
+      "apples": 61,
+      "steps": 400,
+      "reason": "win",
+      "won": true,
+      "seed": 700013,
+      "reward": 62.61
+    },
+    {
+      "apples": 45,
+      "steps": 306,
+      "reason": "body",
+      "won": false,
+      "seed": 700014,
+      "reward": 41.4
+    },
+    {
+      "apples": 28,
+      "steps": 191,
+      "reason": "body",
+      "won": false,
+      "seed": 700015,
+      "reward": 25.38
+    },
+    {
+      "apples": 61,
+      "steps": 444,
+      "reason": "win",
+      "won": true,
+      "seed": 700016,
+      "reward": 62.17
+    },
+    {
+      "apples": 30,
+      "steps": 166,
+      "reason": "body",
+      "won": false,
+      "seed": 700017,
+      "reward": 27.65
+    },
+    {
+      "apples": 56,
+      "steps": 476,
+      "reason": "body",
+      "won": false,
+      "seed": 700018,
+      "reward": 50.81
+    },
+    {
+      "apples": 61,
+      "steps": 434,
+      "reason": "win",
+      "won": true,
+      "seed": 700019,
+      "reward": 62.27
+    },
+    {
+      "apples": 59,
+      "steps": 470,
+      "reason": "body",
+      "won": false,
+      "seed": 700020,
+      "reward": 53.9
+    },
+    {
+      "apples": 61,
+      "steps": 395,
+      "reason": "win",
+      "won": true,
+      "seed": 700021,
+      "reward": 62.66
+    },
+    {
+      "apples": 61,
+      "steps": 438,
+      "reason": "win",
+      "won": true,
+      "seed": 700022,
+      "reward": 62.23
+    },
+    {
+      "apples": 61,
+      "steps": 521,
+      "reason": "win",
+      "won": true,
+      "seed": 700023,
+      "reward": 61.4
+    },
+    {
+      "apples": 61,
+      "steps": 376,
+      "reason": "win",
+      "won": true,
+      "seed": 700024,
+      "reward": 62.85
+    },
+    {
+      "apples": 48,
+      "steps": 358,
+      "reason": "body",
+      "won": false,
+      "seed": 700025,
+      "reward": 43.91
+    },
+    {
+      "apples": 61,
+      "steps": 451,
+      "reason": "win",
+      "won": true,
+      "seed": 700026,
+      "reward": 62.1
+    },
+    {
+      "apples": 52,
+      "steps": 370,
+      "reason": "body",
+      "won": false,
+      "seed": 700027,
+      "reward": 47.83
+    },
+    {
+      "apples": 61,
+      "steps": 391,
+      "reason": "win",
+      "won": true,
+      "seed": 700028,
+      "reward": 62.7
+    },
+    {
+      "apples": 61,
+      "steps": 405,
+      "reason": "win",
+      "won": true,
+      "seed": 700029,
+      "reward": 62.56
+    },
+    {
+      "apples": 61,
+      "steps": 438,
+      "reason": "win",
+      "won": true,
+      "seed": 700030,
+      "reward": 62.23
+    },
+    {
+      "apples": 58,
+      "steps": 391,
+      "reason": "body",
+      "won": false,
+      "seed": 700031,
+      "reward": 53.68
+    },
+    {
+      "apples": 61,
+      "steps": 404,
+      "reason": "win",
+      "won": true,
+      "seed": 700032,
+      "reward": 62.57
+    },
+    {
+      "apples": 61,
+      "steps": 396,
+      "reason": "win",
+      "won": true,
+      "seed": 700033,
+      "reward": 62.65
+    },
+    {
+      "apples": 61,
+      "steps": 416,
+      "reason": "win",
+      "won": true,
+      "seed": 700034,
+      "reward": 62.45
+    },
+    {
+      "apples": 61,
+      "steps": 411,
+      "reason": "win",
+      "won": true,
+      "seed": 700035,
+      "reward": 62.5
+    },
+    {
+      "apples": 61,
+      "steps": 415,
+      "reason": "win",
+      "won": true,
+      "seed": 700036,
+      "reward": 62.46
+    },
+    {
+      "apples": 61,
+      "steps": 434,
+      "reason": "win",
+      "won": true,
+      "seed": 700037,
+      "reward": 62.27
+    },
+    {
+      "apples": 61,
+      "steps": 471,
+      "reason": "win",
+      "won": true,
+      "seed": 700038,
+      "reward": 61.9
+    },
+    {
+      "apples": 61,
+      "steps": 416,
+      "reason": "win",
+      "won": true,
+      "seed": 700039,
+      "reward": 62.45
+    },
+    {
+      "apples": 55,
+      "steps": 429,
+      "reason": "body",
+      "won": false,
+      "seed": 700040,
+      "reward": 50.27
+    },
+    {
+      "apples": 61,
+      "steps": 354,
+      "reason": "win",
+      "won": true,
+      "seed": 700041,
+      "reward": 63.07
+    },
+    {
+      "apples": 61,
+      "steps": 425,
+      "reason": "win",
+      "won": true,
+      "seed": 700042,
+      "reward": 62.36
+    },
+    {
+      "apples": 61,
+      "steps": 415,
+      "reason": "win",
+      "won": true,
+      "seed": 700043,
+      "reward": 62.46
+    },
+    {
+      "apples": 28,
+      "steps": 224,
+      "reason": "body",
+      "won": false,
+      "seed": 700044,
+      "reward": 25.05
+    },
+    {
+      "apples": 38,
+      "steps": 295,
+      "reason": "body",
+      "won": false,
+      "seed": 700045,
+      "reward": 34.44
+    },
+    {
+      "apples": 61,
+      "steps": 434,
+      "reason": "win",
+      "won": true,
+      "seed": 700046,
+      "reward": 62.27
+    },
+    {
+      "apples": 61,
+      "steps": 432,
+      "reason": "win",
+      "won": true,
+      "seed": 700047,
+      "reward": 62.29
+    },
+    {
+      "apples": 61,
+      "steps": 511,
+      "reason": "win",
+      "won": true,
+      "seed": 700048,
+      "reward": 61.5
+    },
+    {
+      "apples": 61,
+      "steps": 395,
+      "reason": "win",
+      "won": true,
+      "seed": 700049,
+      "reward": 62.66
+    },
+    {
+      "apples": 61,
+      "steps": 435,
+      "reason": "win",
+      "won": true,
+      "seed": 700050,
+      "reward": 62.26
+    },
+    {
+      "apples": 61,
+      "steps": 416,
+      "reason": "win",
+      "won": true,
+      "seed": 700051,
+      "reward": 62.45
+    },
+    {
+      "apples": 61,
+      "steps": 385,
+      "reason": "win",
+      "won": true,
+      "seed": 700052,
+      "reward": 62.76
+    },
+    {
+      "apples": 61,
+      "steps": 413,
+      "reason": "win",
+      "won": true,
+      "seed": 700053,
+      "reward": 62.48
+    },
+    {
+      "apples": 61,
+      "steps": 436,
+      "reason": "win",
+      "won": true,
+      "seed": 700054,
+      "reward": 62.25
+    },
+    {
+      "apples": 61,
+      "steps": 433,
+      "reason": "win",
+      "won": true,
+      "seed": 700055,
+      "reward": 62.28
+    },
+    {
+      "apples": 61,
+      "steps": 474,
+      "reason": "win",
+      "won": true,
+      "seed": 700056,
+      "reward": 61.87
+    },
+    {
+      "apples": 61,
+      "steps": 397,
+      "reason": "win",
+      "won": true,
+      "seed": 700057,
+      "reward": 62.64
+    },
+    {
+      "apples": 61,
+      "steps": 420,
+      "reason": "win",
+      "won": true,
+      "seed": 700058,
+      "reward": 62.41
+    },
+    {
+      "apples": 61,
+      "steps": 380,
+      "reason": "win",
+      "won": true,
+      "seed": 700059,
+      "reward": 62.81
+    },
+    {
+      "apples": 22,
+      "steps": 169,
+      "reason": "body",
+      "won": false,
+      "seed": 700060,
+      "reward": 19.54
+    },
+    {
+      "apples": 61,
+      "steps": 370,
+      "reason": "win",
+      "won": true,
+      "seed": 700061,
+      "reward": 62.91
+    },
+    {
+      "apples": 61,
+      "steps": 388,
+      "reason": "win",
+      "won": true,
+      "seed": 700062,
+      "reward": 62.73
+    },
+    {
+      "apples": 28,
+      "steps": 196,
+      "reason": "body",
+      "won": false,
+      "seed": 700063,
+      "reward": 25.33
+    },
+    {
+      "apples": 61,
+      "steps": 480,
+      "reason": "win",
+      "won": true,
+      "seed": 700064,
+      "reward": 61.81
+    },
+    {
+      "apples": 61,
+      "steps": 352,
+      "reason": "win",
+      "won": true,
+      "seed": 700065,
+      "reward": 63.09
+    },
+    {
+      "apples": 61,
+      "steps": 403,
+      "reason": "win",
+      "won": true,
+      "seed": 700066,
+      "reward": 62.58
+    },
+    {
+      "apples": 61,
+      "steps": 384,
+      "reason": "win",
+      "won": true,
+      "seed": 700067,
+      "reward": 62.77
+    },
+    {
+      "apples": 61,
+      "steps": 469,
+      "reason": "win",
+      "won": true,
+      "seed": 700068,
+      "reward": 61.92
+    },
+    {
+      "apples": 61,
+      "steps": 376,
+      "reason": "win",
+      "won": true,
+      "seed": 700069,
+      "reward": 62.85
+    },
+    {
+      "apples": 61,
+      "steps": 392,
+      "reason": "win",
+      "won": true,
+      "seed": 700070,
+      "reward": 62.69
+    },
+    {
+      "apples": 61,
+      "steps": 415,
+      "reason": "win",
+      "won": true,
+      "seed": 700071,
+      "reward": 62.46
+    },
+    {
+      "apples": 61,
+      "steps": 394,
+      "reason": "win",
+      "won": true,
+      "seed": 700072,
+      "reward": 62.67
+    },
+    {
+      "apples": 61,
+      "steps": 460,
+      "reason": "win",
+      "won": true,
+      "seed": 700073,
+      "reward": 62.01
+    },
+    {
+      "apples": 60,
+      "steps": 411,
+      "reason": "body",
+      "won": false,
+      "seed": 700074,
+      "reward": 55.5
+    },
+    {
+      "apples": 61,
+      "steps": 376,
+      "reason": "win",
+      "won": true,
+      "seed": 700075,
+      "reward": 62.85
+    },
+    {
+      "apples": 61,
+      "steps": 473,
+      "reason": "win",
+      "won": true,
+      "seed": 700076,
+      "reward": 61.88
+    },
+    {
+      "apples": 61,
+      "steps": 456,
+      "reason": "win",
+      "won": true,
+      "seed": 700077,
+      "reward": 62.05
+    },
+    {
+      "apples": 61,
+      "steps": 487,
+      "reason": "win",
+      "won": true,
+      "seed": 700078,
+      "reward": 61.74
+    },
+    {
+      "apples": 50,
+      "steps": 378,
+      "reason": "body",
+      "won": false,
+      "seed": 700079,
+      "reward": 45.73
+    },
+    {
+      "apples": 61,
+      "steps": 383,
+      "reason": "win",
+      "won": true,
+      "seed": 700080,
+      "reward": 62.78
+    },
+    {
+      "apples": 14,
+      "steps": 89,
+      "reason": "wall",
+      "won": false,
+      "seed": 700081,
+      "reward": 12.26
+    },
+    {
+      "apples": 61,
+      "steps": 491,
+      "reason": "win",
+      "won": true,
+      "seed": 700082,
+      "reward": 61.7
+    },
+    {
+      "apples": 61,
+      "steps": 397,
+      "reason": "win",
+      "won": true,
+      "seed": 700083,
+      "reward": 62.64
+    },
+    {
+      "apples": 61,
+      "steps": 394,
+      "reason": "win",
+      "won": true,
+      "seed": 700084,
+      "reward": 62.67
+    },
+    {
+      "apples": 61,
+      "steps": 396,
+      "reason": "win",
+      "won": true,
+      "seed": 700085,
+      "reward": 62.65
+    },
+    {
+      "apples": 61,
+      "steps": 430,
+      "reason": "win",
+      "won": true,
+      "seed": 700086,
+      "reward": 62.31
+    },
+    {
+      "apples": 61,
+      "steps": 463,
+      "reason": "win",
+      "won": true,
+      "seed": 700087,
+      "reward": 61.98
+    },
+    {
+      "apples": 58,
+      "steps": 315,
+      "reason": "wall",
+      "won": false,
+      "seed": 700088,
+      "reward": 54.44
+    },
+    {
+      "apples": 61,
+      "steps": 404,
+      "reason": "win",
+      "won": true,
+      "seed": 700089,
+      "reward": 62.57
+    },
+    {
+      "apples": 61,
+      "steps": 411,
+      "reason": "win",
+      "won": true,
+      "seed": 700090,
+      "reward": 62.5
+    },
+    {
+      "apples": 61,
+      "steps": 381,
+      "reason": "win",
+      "won": true,
+      "seed": 700091,
+      "reward": 62.8
+    },
+    {
+      "apples": 61,
+      "steps": 441,
+      "reason": "win",
+      "won": true,
+      "seed": 700092,
+      "reward": 62.2
+    },
+    {
+      "apples": 61,
+      "steps": 449,
+      "reason": "win",
+      "won": true,
+      "seed": 700093,
+      "reward": 62.12
+    },
+    {
+      "apples": 61,
+      "steps": 415,
+      "reason": "win",
+      "won": true,
+      "seed": 700094,
+      "reward": 62.46
+    },
+    {
+      "apples": 61,
+      "steps": 467,
+      "reason": "win",
+      "won": true,
+      "seed": 700095,
+      "reward": 61.94
+    },
+    {
+      "apples": 61,
+      "steps": 463,
+      "reason": "win",
+      "won": true,
+      "seed": 700096,
+      "reward": 61.98
+    },
+    {
+      "apples": 61,
+      "steps": 450,
+      "reason": "win",
+      "won": true,
+      "seed": 700097,
+      "reward": 62.11
+    },
+    {
+      "apples": 61,
+      "steps": 421,
+      "reason": "win",
+      "won": true,
+      "seed": 700098,
+      "reward": 62.4
+    },
+    {
+      "apples": 61,
+      "steps": 367,
+      "reason": "win",
+      "won": true,
+      "seed": 700099,
+      "reward": 62.94
+    },
+    {
+      "apples": 61,
+      "steps": 418,
+      "reason": "win",
+      "won": true,
+      "seed": 700100,
+      "reward": 62.43
+    },
+    {
+      "apples": 61,
+      "steps": 501,
+      "reason": "win",
+      "won": true,
+      "seed": 700101,
+      "reward": 61.6
+    },
+    {
+      "apples": 26,
+      "steps": 196,
+      "reason": "body",
+      "won": false,
+      "seed": 700102,
+      "reward": 23.31
+    },
+    {
+      "apples": 60,
+      "steps": 397,
+      "reason": "body",
+      "won": false,
+      "seed": 700103,
+      "reward": 55.64
+    },
+    {
+      "apples": 61,
+      "steps": 445,
+      "reason": "win",
+      "won": true,
+      "seed": 700104,
+      "reward": 62.16
+    },
+    {
+      "apples": 61,
+      "steps": 427,
+      "reason": "win",
+      "won": true,
+      "seed": 700105,
+      "reward": 62.34
+    },
+    {
+      "apples": 61,
+      "steps": 396,
+      "reason": "win",
+      "won": true,
+      "seed": 700106,
+      "reward": 62.65
+    },
+    {
+      "apples": 61,
+      "steps": 401,
+      "reason": "win",
+      "won": true,
+      "seed": 700107,
+      "reward": 62.6
+    },
+    {
+      "apples": 61,
+      "steps": 453,
+      "reason": "win",
+      "won": true,
+      "seed": 700108,
+      "reward": 62.08
+    },
+    {
+      "apples": 61,
+      "steps": 418,
+      "reason": "win",
+      "won": true,
+      "seed": 700109,
+      "reward": 62.43
+    },
+    {
+      "apples": 25,
+      "steps": 219,
+      "reason": "body",
+      "won": false,
+      "seed": 700110,
+      "reward": 22.07
+    },
+    {
+      "apples": 16,
+      "steps": 94,
+      "reason": "body",
+      "won": false,
+      "seed": 700111,
+      "reward": 14.23
+    },
+    {
+      "apples": 61,
+      "steps": 495,
+      "reason": "win",
+      "won": true,
+      "seed": 700112,
+      "reward": 61.66
+    },
+    {
+      "apples": 61,
+      "steps": 416,
+      "reason": "win",
+      "won": true,
+      "seed": 700113,
+      "reward": 62.45
+    },
+    {
+      "apples": 53,
+      "steps": 396,
+      "reason": "body",
+      "won": false,
+      "seed": 700114,
+      "reward": 48.58
+    },
+    {
+      "apples": 61,
+      "steps": 432,
+      "reason": "win",
+      "won": true,
+      "seed": 700115,
+      "reward": 62.29
+    },
+    {
+      "apples": 61,
+      "steps": 440,
+      "reason": "win",
+      "won": true,
+      "seed": 700116,
+      "reward": 62.21
+    },
+    {
+      "apples": 61,
+      "steps": 419,
+      "reason": "win",
+      "won": true,
+      "seed": 700117,
+      "reward": 62.42
+    },
+    {
+      "apples": 61,
+      "steps": 448,
+      "reason": "win",
+      "won": true,
+      "seed": 700118,
+      "reward": 62.13
+    },
+    {
+      "apples": 61,
+      "steps": 428,
+      "reason": "win",
+      "won": true,
+      "seed": 700119,
+      "reward": 62.33
+    },
+    {
+      "apples": 61,
+      "steps": 372,
+      "reason": "win",
+      "won": true,
+      "seed": 700120,
+      "reward": 62.89
+    },
+    {
+      "apples": 59,
+      "steps": 387,
+      "reason": "body",
+      "won": false,
+      "seed": 700121,
+      "reward": 54.73
+    },
+    {
+      "apples": 61,
+      "steps": 497,
+      "reason": "win",
+      "won": true,
+      "seed": 700122,
+      "reward": 61.64
+    },
+    {
+      "apples": 61,
+      "steps": 379,
+      "reason": "win",
+      "won": true,
+      "seed": 700123,
+      "reward": 62.82
+    },
+    {
+      "apples": 61,
+      "steps": 363,
+      "reason": "win",
+      "won": true,
+      "seed": 700124,
+      "reward": 62.98
+    },
+    {
+      "apples": 61,
+      "steps": 437,
+      "reason": "win",
+      "won": true,
+      "seed": 700125,
+      "reward": 62.24
+    },
+    {
+      "apples": 61,
+      "steps": 439,
+      "reason": "win",
+      "won": true,
+      "seed": 700126,
+      "reward": 62.22
+    },
+    {
+      "apples": 61,
+      "steps": 402,
+      "reason": "win",
+      "won": true,
+      "seed": 700127,
+      "reward": 62.59
+    },
+    {
+      "apples": 61,
+      "steps": 366,
+      "reason": "win",
+      "won": true,
+      "seed": 700128,
+      "reward": 62.95
+    },
+    {
+      "apples": 8,
+      "steps": 57,
+      "reason": "body",
+      "won": false,
+      "seed": 700129,
+      "reward": 6.52
+    },
+    {
+      "apples": 61,
+      "steps": 460,
+      "reason": "win",
+      "won": true,
+      "seed": 700130,
+      "reward": 62.01
+    },
+    {
+      "apples": 61,
+      "steps": 434,
+      "reason": "win",
+      "won": true,
+      "seed": 700131,
+      "reward": 62.27
+    },
+    {
+      "apples": 54,
+      "steps": 417,
+      "reason": "body",
+      "won": false,
+      "seed": 700132,
+      "reward": 49.38
+    },
+    {
+      "apples": 61,
+      "steps": 439,
+      "reason": "win",
+      "won": true,
+      "seed": 700133,
+      "reward": 62.22
+    },
+    {
+      "apples": 61,
+      "steps": 434,
+      "reason": "win",
+      "won": true,
+      "seed": 700134,
+      "reward": 62.27
+    },
+    {
+      "apples": 61,
+      "steps": 376,
+      "reason": "win",
+      "won": true,
+      "seed": 700135,
+      "reward": 62.85
+    },
+    {
+      "apples": 61,
+      "steps": 406,
+      "reason": "win",
+      "won": true,
+      "seed": 700136,
+      "reward": 62.55
+    },
+    {
+      "apples": 61,
+      "steps": 443,
+      "reason": "win",
+      "won": true,
+      "seed": 700137,
+      "reward": 62.18
+    },
+    {
+      "apples": 32,
+      "steps": 234,
+      "reason": "body",
+      "won": false,
+      "seed": 700138,
+      "reward": 28.99
+    },
+    {
+      "apples": 61,
+      "steps": 391,
+      "reason": "win",
+      "won": true,
+      "seed": 700139,
+      "reward": 62.7
+    },
+    {
+      "apples": 61,
+      "steps": 411,
+      "reason": "win",
+      "won": true,
+      "seed": 700140,
+      "reward": 62.5
+    },
+    {
+      "apples": 4,
+      "steps": 23,
+      "reason": "body",
+      "won": false,
+      "seed": 700141,
+      "reward": 2.82
+    },
+    {
+      "apples": 35,
+      "steps": 272,
+      "reason": "body",
+      "won": false,
+      "seed": 700142,
+      "reward": 31.64
+    },
+    {
+      "apples": 61,
+      "steps": 413,
+      "reason": "win",
+      "won": true,
+      "seed": 700143,
+      "reward": 62.48
+    },
+    {
+      "apples": 61,
+      "steps": 392,
+      "reason": "win",
+      "won": true,
+      "seed": 700144,
+      "reward": 62.69
+    },
+    {
+      "apples": 15,
+      "steps": 83,
+      "reason": "body",
+      "won": false,
+      "seed": 700145,
+      "reward": 13.33
+    },
+    {
+      "apples": 61,
+      "steps": 432,
+      "reason": "win",
+      "won": true,
+      "seed": 700146,
+      "reward": 62.29
+    },
+    {
+      "apples": 61,
+      "steps": 391,
+      "reason": "win",
+      "won": true,
+      "seed": 700147,
+      "reward": 62.7
+    },
+    {
+      "apples": 23,
+      "steps": 163,
+      "reason": "body",
+      "won": false,
+      "seed": 700148,
+      "reward": 20.61
+    },
+    {
+      "apples": 61,
+      "steps": 419,
+      "reason": "win",
+      "won": true,
+      "seed": 700149,
+      "reward": 62.42
+    },
+    {
+      "apples": 26,
+      "steps": 193,
+      "reason": "body",
+      "won": false,
+      "seed": 700150,
+      "reward": 23.34
+    },
+    {
+      "apples": 61,
+      "steps": 451,
+      "reason": "win",
+      "won": true,
+      "seed": 700151,
+      "reward": 62.1
+    },
+    {
+      "apples": 10,
+      "steps": 78,
+      "reason": "body",
+      "won": false,
+      "seed": 700152,
+      "reward": 8.33
+    },
+    {
+      "apples": 61,
+      "steps": 441,
+      "reason": "win",
+      "won": true,
+      "seed": 700153,
+      "reward": 62.2
+    },
+    {
+      "apples": 61,
+      "steps": 380,
+      "reason": "win",
+      "won": true,
+      "seed": 700154,
+      "reward": 62.81
+    },
+    {
+      "apples": 61,
+      "steps": 377,
+      "reason": "win",
+      "won": true,
+      "seed": 700155,
+      "reward": 62.84
+    },
+    {
+      "apples": 58,
+      "steps": 389,
+      "reason": "body",
+      "won": false,
+      "seed": 700156,
+      "reward": 53.7
+    },
+    {
+      "apples": 61,
+      "steps": 375,
+      "reason": "win",
+      "won": true,
+      "seed": 700157,
+      "reward": 62.86
+    },
+    {
+      "apples": 61,
+      "steps": 402,
+      "reason": "win",
+      "won": true,
+      "seed": 700158,
+      "reward": 62.59
+    },
+    {
+      "apples": 61,
+      "steps": 389,
+      "reason": "win",
+      "won": true,
+      "seed": 700159,
+      "reward": 62.72
+    },
+    {
+      "apples": 61,
+      "steps": 429,
+      "reason": "win",
+      "won": true,
+      "seed": 700160,
+      "reward": 62.32
+    },
+    {
+      "apples": 61,
+      "steps": 439,
+      "reason": "win",
+      "won": true,
+      "seed": 700161,
+      "reward": 62.22
+    },
+    {
+      "apples": 2,
+      "steps": 10,
+      "reason": "body",
+      "won": false,
+      "seed": 700162,
+      "reward": 0.93
+    },
+    {
+      "apples": 61,
+      "steps": 414,
+      "reason": "win",
+      "won": true,
+      "seed": 700163,
+      "reward": 62.47
+    },
+    {
+      "apples": 29,
+      "steps": 217,
+      "reason": "body",
+      "won": false,
+      "seed": 700164,
+      "reward": 26.13
+    },
+    {
+      "apples": 61,
+      "steps": 417,
+      "reason": "win",
+      "won": true,
+      "seed": 700165,
+      "reward": 62.44
+    },
+    {
+      "apples": 61,
+      "steps": 426,
+      "reason": "win",
+      "won": true,
+      "seed": 700166,
+      "reward": 62.35
+    },
+    {
+      "apples": 61,
+      "steps": 411,
+      "reason": "win",
+      "won": true,
+      "seed": 700167,
+      "reward": 62.5
+    },
+    {
+      "apples": 61,
+      "steps": 476,
+      "reason": "win",
+      "won": true,
+      "seed": 700168,
+      "reward": 61.85
+    },
+    {
+      "apples": 61,
+      "steps": 445,
+      "reason": "win",
+      "won": true,
+      "seed": 700169,
+      "reward": 62.16
+    },
+    {
+      "apples": 61,
+      "steps": 423,
+      "reason": "win",
+      "won": true,
+      "seed": 700170,
+      "reward": 62.38
+    },
+    {
+      "apples": 61,
+      "steps": 372,
+      "reason": "win",
+      "won": true,
+      "seed": 700171,
+      "reward": 62.89
+    },
+    {
+      "apples": 35,
+      "steps": 222,
+      "reason": "body",
+      "won": false,
+      "seed": 700172,
+      "reward": 32.14
+    },
+    {
+      "apples": 61,
+      "steps": 431,
+      "reason": "win",
+      "won": true,
+      "seed": 700173,
+      "reward": 62.3
+    },
+    {
+      "apples": 61,
+      "steps": 414,
+      "reason": "win",
+      "won": true,
+      "seed": 700174,
+      "reward": 62.47
+    },
+    {
+      "apples": 16,
+      "steps": 121,
+      "reason": "body",
+      "won": false,
+      "seed": 700175,
+      "reward": 13.96
+    },
+    {
+      "apples": 61,
+      "steps": 506,
+      "reason": "win",
+      "won": true,
+      "seed": 700176,
+      "reward": 61.55
+    },
+    {
+      "apples": 61,
+      "steps": 440,
+      "reason": "win",
+      "won": true,
+      "seed": 700177,
+      "reward": 62.21
+    },
+    {
+      "apples": 61,
+      "steps": 407,
+      "reason": "win",
+      "won": true,
+      "seed": 700178,
+      "reward": 62.54
+    },
+    {
+      "apples": 36,
+      "steps": 297,
+      "reason": "body",
+      "won": false,
+      "seed": 700179,
+      "reward": 32.4
+    },
+    {
+      "apples": 39,
+      "steps": 237,
+      "reason": "body",
+      "won": false,
+      "seed": 700180,
+      "reward": 36.03
+    },
+    {
+      "apples": 61,
+      "steps": 503,
+      "reason": "win",
+      "won": true,
+      "seed": 700181,
+      "reward": 61.58
+    },
+    {
+      "apples": 61,
+      "steps": 429,
+      "reason": "win",
+      "won": true,
+      "seed": 700182,
+      "reward": 62.32
+    },
+    {
+      "apples": 17,
+      "steps": 98,
+      "reason": "wall",
+      "won": false,
+      "seed": 700183,
+      "reward": 15.2
+    },
+    {
+      "apples": 61,
+      "steps": 448,
+      "reason": "win",
+      "won": true,
+      "seed": 700184,
+      "reward": 62.13
+    },
+    {
+      "apples": 61,
+      "steps": 443,
+      "reason": "win",
+      "won": true,
+      "seed": 700185,
+      "reward": 62.18
+    },
+    {
+      "apples": 61,
+      "steps": 466,
+      "reason": "win",
+      "won": true,
+      "seed": 700186,
+      "reward": 61.95
+    },
+    {
+      "apples": 61,
+      "steps": 389,
+      "reason": "win",
+      "won": true,
+      "seed": 700187,
+      "reward": 62.72
+    },
+    {
+      "apples": 61,
+      "steps": 453,
+      "reason": "win",
+      "won": true,
+      "seed": 700188,
+      "reward": 62.08
+    },
+    {
+      "apples": 61,
+      "steps": 458,
+      "reason": "win",
+      "won": true,
+      "seed": 700189,
+      "reward": 62.03
+    },
+    {
+      "apples": 61,
+      "steps": 396,
+      "reason": "win",
+      "won": true,
+      "seed": 700190,
+      "reward": 62.65
+    },
+    {
+      "apples": 28,
+      "steps": 190,
+      "reason": "body",
+      "won": false,
+      "seed": 700191,
+      "reward": 25.39
+    },
+    {
+      "apples": 61,
+      "steps": 473,
+      "reason": "win",
+      "won": true,
+      "seed": 700192,
+      "reward": 61.88
+    },
+    {
+      "apples": 46,
+      "steps": 389,
+      "reason": "body",
+      "won": false,
+      "seed": 700193,
+      "reward": 41.58
+    },
+    {
+      "apples": 61,
+      "steps": 484,
+      "reason": "win",
+      "won": true,
+      "seed": 700194,
+      "reward": 61.77
+    },
+    {
+      "apples": 61,
+      "steps": 435,
+      "reason": "win",
+      "won": true,
+      "seed": 700195,
+      "reward": 62.26
+    },
+    {
+      "apples": 61,
+      "steps": 440,
+      "reason": "win",
+      "won": true,
+      "seed": 700196,
+      "reward": 62.21
+    },
+    {
+      "apples": 61,
+      "steps": 366,
+      "reason": "win",
+      "won": true,
+      "seed": 700197,
+      "reward": 62.95
+    },
+    {
+      "apples": 61,
+      "steps": 416,
+      "reason": "win",
+      "won": true,
+      "seed": 700198,
+      "reward": 62.45
+    },
+    {
+      "apples": 61,
+      "steps": 443,
+      "reason": "win",
+      "won": true,
+      "seed": 700199,
+      "reward": 62.18
+    }
+  ]
+}

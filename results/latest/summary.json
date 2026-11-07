@@ -1,0 +1,252 @@
+{
+  "iterations": 2000,
+  "environment_steps": 131072000,
+  "history_continuous": true,
+  "first_win_iteration": 200,
+  "training_all": {
+    "games": 452388,
+    "wins": 201665,
+    "win_rate": 0.4457788447085245,
+    "apples_mean": 38.40923499297064,
+    "reward_mean": 37.580968176452046,
+    "steps_mean": 289.2658138588999,
+    "end_reasons": {
+      "wall": 43154,
+      "body": 207568,
+      "starvation": 1,
+      "win": 201665
+    },
+    "winning_steps_mean": 441.4991942082166,
+    "losing_apples_mean": 20.238717628618037,
+    "losses_with_50_plus_apples": 25366
+  },
+  "training_last_100": {
+    "games": 100,
+    "wins": 74,
+    "win_rate": 0.74,
+    "apples_mean": 53.74,
+    "reward_mean": 54.123524799346924,
+    "steps_mean": 359.66,
+    "end_reasons": {
+      "win": 74,
+      "wall": 7,
+      "body": 19
+    },
+    "winning_steps_mean": 405.1216216216216,
+    "losing_apples_mean": 33.07692307692308,
+    "losses_with_50_plus_apples": 8
+  },
+  "training_last_1000": {
+    "games": 1000,
+    "wins": 788,
+    "win_rate": 0.788,
+    "apples_mean": 55.423,
+    "reward_mean": 55.93456469678879,
+    "steps_mean": 377.292,
+    "end_reasons": {
+      "win": 788,
+      "body": 180,
+      "wall": 32
+    },
+    "winning_steps_mean": 411.1040609137056,
+    "losing_apples_mean": 34.693396226415096,
+    "losses_with_50_plus_apples": 68
+  },
+  "training_last_10000": {
+    "games": 10000,
+    "wins": 7189,
+    "win_rate": 0.7189,
+    "apples_mean": 53.7096,
+    "reward_mean": 53.90651109918952,
+    "steps_mean": 365.6522,
+    "end_reasons": {
+      "win": 7189,
+      "body": 2287,
+      "wall": 524
+    },
+    "winning_steps_mean": 409.14577827236053,
+    "losing_apples_mean": 35.06474564212024,
+    "losses_with_50_plus_apples": 801
+  },
+  "stages": [
+    {
+      "from_iteration": 1,
+      "to_iteration": 200,
+      "games": 139209,
+      "wins": 1,
+      "win_rate": 7.1834435991925806e-06,
+      "apples_mean": 10.311646517107372,
+      "reward_mean": 8.500433842405759,
+      "steps_mean": 92.43631518077136,
+      "end_reasons": {
+        "wall": 32414,
+        "body": 106793,
+        "starvation": 1,
+        "win": 1
+      },
+      "winning_steps_mean": 700,
+      "losing_apples_mean": 10.311282397563359,
+      "losses_with_50_plus_apples": 145
+    },
+    {
+      "from_iteration": 201,
+      "to_iteration": 500,
+      "games": 50197,
+      "wins": 25412,
+      "win_rate": 0.5062453931509852,
+      "apples_mean": 43.987409606151765,
+      "reward_mean": 42.54874635203216,
+      "steps_mean": 392.105603920553,
+      "end_reasons": {
+        "body": 22876,
+        "wall": 1909,
+        "win": 25412
+      },
+      "winning_steps_mean": 532.4054383755706,
+      "losing_apples_mean": 26.54444220294533,
+      "losses_with_50_plus_apples": 1857
+    },
+    {
+      "from_iteration": 501,
+      "to_iteration": 950,
+      "games": 76479,
+      "wins": 45851,
+      "win_rate": 0.599524052354241,
+      "apples_mean": 50.074281828998814,
+      "reward_mean": 49.31974635820923,
+      "steps_mean": 385.6555132781548,
+      "end_reasons": {
+        "body": 29135,
+        "win": 45851,
+        "wall": 1493
+      },
+      "winning_steps_mean": 460.477677695143,
+      "losing_apples_mean": 33.71816638370119,
+      "losses_with_50_plus_apples": 7655
+    },
+    {
+      "from_iteration": 951,
+      "to_iteration": 1040,
+      "games": 15623,
+      "wins": 10694,
+      "win_rate": 0.6845036164629072,
+      "apples_mean": 52.62817640658004,
+      "reward_mean": 52.48392995841172,
+      "steps_mean": 378.08359470012164,
+      "end_reasons": {
+        "body": 4634,
+        "win": 10694,
+        "wall": 295
+      },
+      "winning_steps_mean": 431.26697213390685,
+      "losing_apples_mean": 34.46459728139582,
+      "losses_with_50_plus_apples": 1371
+    },
+    {
+      "from_iteration": 1041,
+      "to_iteration": 1200,
+      "games": 28470,
+      "wins": 18516,
+      "win_rate": 0.6503688092729188,
+      "apples_mean": 51.59736564805058,
+      "reward_mean": 51.33508109427729,
+      "steps_mean": 368.4092377941693,
+      "end_reasons": {
+        "win": 18516,
+        "body": 9010,
+        "wall": 944
+      },
+      "winning_steps_mean": 427.25912724130484,
+      "losing_apples_mean": 34.10699216395419,
+      "losses_with_50_plus_apples": 2591
+    },
+    {
+      "from_iteration": 1201,
+      "to_iteration": 1500,
+      "games": 53169,
+      "wins": 37130,
+      "win_rate": 0.698339257838214,
+      "apples_mean": 53.153717391713215,
+      "reward_mean": 53.18007103212866,
+      "steps_mean": 369.8364836652937,
+      "end_reasons": {
+        "win": 37130,
+        "body": 14132,
+        "wall": 1907
+      },
+      "winning_steps_mean": 417.68343657419877,
+      "losing_apples_mean": 34.98971257559698,
+      "losses_with_50_plus_apples": 4720
+    },
+    {
+      "from_iteration": 1501,
+      "to_iteration": 1750,
+      "games": 44645,
+      "wins": 31455,
+      "win_rate": 0.7045581812073021,
+      "apples_mean": 53.44759771530966,
+      "reward_mean": 53.54214177532978,
+      "steps_mean": 367.036375853959,
+      "end_reasons": {
+        "win": 31455,
+        "body": 11249,
+        "wall": 1941
+      },
+      "winning_steps_mean": 412.3823875377523,
+      "losing_apples_mean": 35.43692191053829,
+      "losses_with_50_plus_apples": 3915
+    },
+    {
+      "from_iteration": 1751,
+      "to_iteration": 2000,
+      "games": 44596,
+      "wins": 32606,
+      "win_rate": 0.7311418064400395,
+      "apples_mean": 53.799690555206745,
+      "reward_mean": 54.056675969093504,
+      "steps_mean": 367.06783119562294,
+      "end_reasons": {
+        "win": 32606,
+        "body": 9739,
+        "wall": 2251
+      },
+      "winning_steps_mean": 410.6058087468564,
+      "losing_apples_mean": 34.21893244370309,
+      "losses_with_50_plus_apples": 3112
+    }
+  ],
+  "loss_replay_summary": {
+    "games": 22,
+    "body": 20,
+    "wall": 2,
+    "safe_alternative_in_final_move": 9,
+    "all_three_actions_already_fatal": 13,
+    "loss_immediately_after_eating": 10,
+    "loss_at_60_apples": 3,
+    "note": "One-step counterfactual check only: a legal move can still lead to a later trap. No action masks were applied."
+  },
+  "evaluation": {
+    "950": {
+      "wins": 154,
+      "episodes": 200,
+      "win_rate": 0.77,
+      "apples_mean": 55.365,
+      "reward_mean": 55.6653,
+      "win_rate_wilson_95": [
+        0.7069169563469642,
+        0.8229065674093119
+      ]
+    },
+    "2000": {
+      "wins": 178,
+      "episodes": 200,
+      "win_rate": 0.89,
+      "apples_mean": 58.26,
+      "reward_mean": 59.30815,
+      "win_rate_wilson_95": [
+        0.839073090026985,
+        0.926227555398747
+      ]
+    }
+  }
+}

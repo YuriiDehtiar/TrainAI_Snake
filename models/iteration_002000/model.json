@@ -1,0 +1,59 @@
+{
+  "format": "snakeai-state-dict-v1",
+  "version": "9.0.0",
+  "iteration": 2000,
+  "env_config": {
+    "width": 10,
+    "height": 10,
+    "initial_length": 3,
+    "max_steps_without_apple": 256,
+    "max_episode_steps": 6400,
+    "rewards": {
+      "step": -0.01,
+      "apple": 1.0,
+      "collision": -1.0,
+      "starvation": -1.0,
+      "win_bonus": 5.0
+    }
+  },
+  "architecture": {
+    "input": [
+      10,
+      10,
+      13
+    ],
+    "conv_channels": [
+      32,
+      64,
+      64
+    ],
+    "conv_kernel": [
+      3,
+      3
+    ],
+    "stride": 1,
+    "padding": 1,
+    "hidden_layers": [
+      256,
+      128
+    ],
+    "activation": "ReLU",
+    "actor_outputs": 3,
+    "critic_outputs": 1,
+    "shared_actor_critic": false
+  },
+  "weight_sha256": "fd2a1764f61e3b89deca532d9d84a5e123625cc26931f6d6cc8bdf98a1bd227b",
+  "parameters": 3462020,
+  "evaluation": {
+    "wins": 178,
+    "episodes": 200,
+    "win_rate": 0.89,
+    "apples_mean": 58.26,
+    "reward_mean": 59.30815,
+    "win_rate_wilson_95": [
+      0.839073090026985,
+      0.926227555398747
+    ]
+  },
+  "contains_optimizer_state": false
+}
